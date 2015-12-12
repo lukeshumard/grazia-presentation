@@ -28,9 +28,10 @@ $headingColor: #000;
 $headingTextShadow: none;
 $headingTextTransform: none;
 $backgroundColor: #fff;
-$linkColor: #00008B;
-$linkColorHover: lighten( $linkColor, 20% );
+$linkColor: #000;
+$linkColorHover: lighten( $linkColor, 40% );
 $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
+$highlight: #ff0;
 
 
 
@@ -42,4 +43,26 @@ $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
     overflow-y: auto  !important;
     overflow-x: hidden !important;
     max-height: 100vh;
+}
+
+.reveal {
+  font-size: 0.85em;
+
+  section {
+
+    h1 {
+      font-size: 1.8em;
+      font-weight: 700;
+      margin-bottom: 0.15em;
+    }
+
+    h2 {
+      background-color: $highlight;
+      padding: 20px;
+      font-size: 1.8em;
+      font-weight: 700;
+    }
+
+  }
+
 }
