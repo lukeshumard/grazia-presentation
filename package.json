@@ -1,7 +1,7 @@
 {
-  "name": "reveal.js",
-  "version": "3.2.0",
-  "description": "The HTML Presentation Framework",
+  "name": "grazia-presentation",
+  "version": "1.0.0",
+  "description": "Presentation for Grazia Shop",
   "homepage": "http://lab.hakim.se/reveal-js",
   "subdomain": "revealjs",
   "main": "js/reveal.js",
@@ -10,13 +10,9 @@
     "start": "grunt serve"
   },
   "author": {
-    "name": "Hakim El Hattab",
-    "email": "hakim.elhattab@gmail.com",
-    "web": "http://hakim.se"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/hakimel/reveal.js.git"
+    "name": "Luke Shumard",
+    "email": "luke@nonement.com",
+    "web": "http://www.lukeshumard.com"
   },
   "engines": {
     "node": "~4.1.1"
@@ -40,6 +36,6 @@
     "grunt": "~0.4.5",
     "node-sass": "~3.3.3"
   },
-  
+
   "license": "MIT"
 }
