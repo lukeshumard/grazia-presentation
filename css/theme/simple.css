@@ -300,3 +300,5 @@ body {
     padding: 20px;
     font-size: 1.8em;
     font-weight: 700; }
+  .reveal section p {
+    text-align: left; }
